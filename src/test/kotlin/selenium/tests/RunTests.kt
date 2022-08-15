@@ -1,7 +1,7 @@
-package selenium.tests;
+package selenium.tests
 
-import selenium.helpers.DriverFactory;
-import selenium.pageObj.Planner5DHomePage;
+import selenium.helpers.DriverFactory
+import selenium.pageObj.Planner5DHomePage
 
 import org.junit.After
 import org.junit.Assert
@@ -25,6 +25,8 @@ class RunTests {
     fun testPlanner() {
         //Write your test here
         planner5DHomePage.openUrl()
+        planner5DHomePage.clickCheckPrices()
+        planner5DHomePage.countButtons()
     }
 
     @After
