@@ -9,7 +9,7 @@ object DriverFactory {
 
     val browser: WebDriver
         get() {
-
+            System.setProperty("webdriver.chrome.driver", "D:\\Downloads\\chromedriver_win32\\chromedriver.exe")
             val driver: WebDriver
             val browserName = System.getProperty("browser", DriverType.CHROME.toString()).uppercase(Locale.getDefault())
 

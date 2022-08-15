@@ -1,6 +1,6 @@
 package selenium.pageObj
 
-import org.openqa.selenium.Keys
+import org.junit.Assert
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.FindBy
@@ -11,8 +11,11 @@ class Planner5DHomePage(driver: WebDriver) {
 
     private var driver: WebDriver? = null
 
-    @FindBy(name = "q")
-    internal var searchBox: WebElement? = null
+    @FindBy(xpath = "//*[contains(text(), 'Check our prices')]")
+    internal var checkPrices: WebElement? = null
+
+    @FindBy(tagName = "button")
+    val buttons: List<WebElement>? = null
 
     init {
         this.driver = driver
@@ -23,7 +26,16 @@ class Planner5DHomePage(driver: WebDriver) {
         driver!!.get("https://planner5d.com/")
     }
 
-    fun searchFor(_searchTerm: String) {
-        searchBox!!.sendKeys(_searchTerm + Keys.RETURN)
+    fun clickCheckPrices() {
+        checkPrices!!.click()
+    }
+
+    fun countButtons() {
+        if(buttons?.size != 0) {
+            Assert.assertEquals(buttons?.size, 14)
+            println("There are exactly " + buttons?.size + " on this page")
+        } else {
+            println("Ooops, we have " + buttons?.size + " on this page")
+        }
     }
 }

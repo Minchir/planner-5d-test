@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2698677f-3b9d-4d21-83e3-12aa46132b35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/helpers/DriverFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/helpers/DriverTypes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/pageObj/Planner5DHomePage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/tests/RunTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/selenium/helpers/DriverFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/helpers/DriverFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/selenium/pageObj/Planner5DHomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/pageObj/Planner5DHomePage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/selenium/tests/RunTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/selenium/tests/RunTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Downloads/Selenium-Kotlin-Getting-Started-Examples-master/Selenium-Kotlin-Getting-Started-Examples-master/Selenium-Selenide-Junit-Template",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.60229886",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Downloads/Selenium-Kotlin-Getting-Started-Examples-master/Selenium-Kotlin-Getting-Started-Examples-master/Selenium-Selenide-Junit-Template&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.60229886&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.RunTests">
+}</component>
+  <component name="RunManager" selected="JUnit.RunTests.testPlanner">
     <configuration name="CheckTestingBotTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -70,29 +66,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;CheckTestingBotTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CheckTestingBotTest.site_header_is_on_home_page" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;CheckTestingBotTest.site_header_is_on_home_page&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,13 +136,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunTests.testPlanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="planner-5d-test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.tests.RunTests" />
+      <option name="METHOD_NAME" value="testPlanner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunTests.testPlanner" />
         <item itemvalue="JUnit.RunTests" />
         <item itemvalue="Gradle.RunTests" />
         <item itemvalue="Gradle.RunTests.testPlanner" />
         <item itemvalue="Gradle.CheckTestingBotTest" />
-        <item itemvalue="Gradle.CheckTestingBotTest.site_header_is_on_home_page" />
       </list>
     </recent_temporary>
   </component>
